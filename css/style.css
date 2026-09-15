@@ -1,0 +1,27 @@
+.container {
+    max-width: 1264px;
+    padding: 0 10px;
+    margin: 0 auto;
+    outline: 1px solid red;
+}
+
+@media (min-width: 382px ) {
+    .container {
+        width: 382px;
+    }
+}
+
+@media (min-width: 1264px ) {
+    .container {
+        width: 1264px;
+        padding: 0 12px;
+        
+    .header {
+    padding-top: 40px;
+}
+
+    .header-btn {
+    display: none;
+}
+    }
+}
