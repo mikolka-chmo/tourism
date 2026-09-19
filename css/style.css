@@ -5,6 +5,52 @@
     outline: 1px solid red;
 }
 
+.header-container {
+    display: flex;
+    align-items: center;
+    background: #FEFCF7;
+    padding: 20px;
+    border-radius: 60px;
+}
+
+.header{
+    padding-top: 20px;
+}
+.header_list{
+
+
+    display: none;
+}
+
+.header-logo{
+    color: #161616;
+font-size: 18px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+display: flex;
+align-items: center;
+gap: 12px;
+}
+.header-leaf{
+    width: 24.0px;
+height: 26.0px;
+
+}
+
+.header-btn {
+    background-color: transparent;
+    border: none;
+    margin-left: auto;
+}
+.header_items{
+    display: none;
+}
+.header-menu{
+    width: 24.0px;
+height: 24.0px;
+
+}
 @media (min-width: 382px ) {
     .container {
         width: 382px;
@@ -24,4 +70,55 @@
     display: none;
 }
     }
+}
+@media (min-width: 1264px ) {
+.container {
+width: 1264px;
+padding: 0 12px;
+}
+
+.header-container{
+    padding: 24px 40px ;
+}
+
+.header {
+padding-top: 40px;
+}
+
+.header-btn {
+display: none;
+}
+
+.header_list {
+display: flex;
+margin-right: auto;
+gap: 32px;
+}
+.header_link{
+        color: #161616;
+font-size: 20px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+.header_items{
+    display: flex;
+    margin-left: auto;
+    gap: 32px;
+}
+.header_contact{
+    color:#161616;
+font-size: 18px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+
+}
+.header_elem:last-child{
+    .header_contact{
+        padding: 8px 14px;
+        border-radius: 100px;
+border: 1px solid #161616;
+    }
+}
 }
